@@ -3,3 +3,28 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+header {
+  height: 50px;
+  width: auto;
+}
+
+header,
+.step {
+  background: #ff9a4b;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.box {
+  background-color: #ffffff;
+  display: inline-block;
+  width: 300px;
+}
+
+.box:nth-child(2) {
+  padding: 0 30px;
+}
