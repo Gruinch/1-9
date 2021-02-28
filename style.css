@@ -20,13 +20,48 @@ main {
 }
 
 .box {
-  background-color: #ffffff;
+  background-color: #f5f5f5;
   display: inline-block;
   width: 300px;
+  position: relative;
+}
+
+.box:nth-child(1) {
+  margin-right: 30px;
 }
 
 .box:nth-child(2) {
-  padding: 0 30px;
+  margin-right: 30px;
+}
+
+.step {
+  position: absolute;
+  color: #ffffff;
+}
+
+.image1 {
+  height: 150px;
+  margin: 10px;
+  background-image: url(img/flow01.png);
+  background-size: 100% 100%;
+}
+
+.image2 {
+  height: 150px;
+  margin: 10px;
+  background-image: url(img/flow02.png);
+  background-size: 100% 100%;
+}
+
+.image3 {
+  height: 150px;
+  margin: 10px;
+  background-image: url(img/flow03.png);
+  background-size: 100% 100%;
+}
+
+h3 {
+  margin: 15px 0;
 }
 
 footer {
